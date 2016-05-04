@@ -18,7 +18,7 @@
     this.imagesBaseURL = settings.imagesFolderUri;
     this.logoURL = '';
     this.mode = settings.mode
-    this.fullscreen = false;
+    this.fullscreen = true;
     this.content_type = settings.content_type;
     this.pageProgression = settings.pageProgression;
   }
