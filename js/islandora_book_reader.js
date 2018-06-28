@@ -181,7 +181,7 @@
       base_uri += '/';
     }
     var params = $.param({
-      'rft_id': resource_uri,
+      'rft_id': resource_uri.replace('https', 'http'),
       'url_ver': 'Z39.88-2004',
       'svc_id': 'info:lanl-repo/svc/getRegion',
       'svc_val_fmt': 'info:ofi/fmt:kev:mtx:jpeg2000',
